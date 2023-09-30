@@ -1,0 +1,58 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    background-color: #0fcabe;
+    color: #fff;
+    padding: 20px;
+}
+
+main {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.converter {
+    margin-bottom: 30px;
+}
+
+input[type="number"] {
+    padding: 10px;
+    width: 80%;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #d400ff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00b377;
+}
+
+footer {
+    text-align: center;
+    background-color: #7eab51;
+    color: #fff;
+    padding: 10px;
+}
